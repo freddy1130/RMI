@@ -3,14 +3,9 @@ function Heading() {
     <header className="border-bottom">
       <div className="container items-center">
         <div className="flex row align-items-center">
-          <div className="col-auto">
-            <div>
-              <h1>Rate My Interview</h1>
-              <p>Real interview experiences from real candidates</p>
-            </div>
-          </div>
+          
           <div className="col"></div>
-          <div className="col-auto ml-auto d-flex align-items-center">
+          {/* <div className="col-auto ml-auto d-flex align-items-center gap-2">
             <button
               type="button"
               className="btn btn-dark flex-shrink-0 text-nowrap"
@@ -18,7 +13,21 @@ function Heading() {
             >
               + Write Review
             </button>
-          </div>
+            <button
+              type="button"
+              className="btn btn-dark flex-shrink-0 text-nowrap"
+              style={{ minWidth: 120 }}
+            >
+              Login
+            </button>
+            <button
+              type="button"
+              className="btn btn-dark flex-shrink-0 text-nowrap"
+              style={{ minWidth: 120 }}
+            >
+              Sign up
+            </button>
+          </div> */}
         </div>
       </div>
     </header>

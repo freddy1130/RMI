@@ -191,11 +191,27 @@ function Metrics_Summary({
         </div>
       </div>
       <div className="tabs">
-        <div role="tablist" aria-label="Company Review Tabs">
-          <button role="tab" aria-selected="true" aria-controls="panel-1" id="tab-1" tabIndex={0}>
+        <div role="tablist" aria-label="Company Review Tabs" className="d-flex justify-content-start gap-2">
+          <button
+            role="tab"
+            aria-selected="true"
+            aria-controls="panel-1"
+            id="tab-1"
+            tabIndex={0}
+            className="btn btn-sm btn-primary"
+            style={{ width: "100px" }}
+          >
             Companies
           </button>
-          <button role="tab" aria-selected="false" aria-controls="panel-2" id="tab-2" tabIndex={-1}>
+          <button
+            role="tab"
+            aria-selected="false"
+            aria-controls="panel-2"
+            id="tab-2"
+            tabIndex={-1}
+            className="btn btn-sm btn-secondary"
+            style={{ width: "100px" }}
+          >
             Reviews
           </button>
         </div>
