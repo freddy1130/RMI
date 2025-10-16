@@ -203,13 +203,15 @@ function Metrics_Summary({
       </div>
       {/* Tab Buttons for companies and reviews */}
       <div className="tabs">
-        <div role="tablist" aria-label="Company Review Tabs">
+        <div role="tablist" aria-label="Company Review Tabs" className="d-flex justify-content-start gap-2">
           <button
             role="tab"
             aria-selected="true"
             aria-controls="panel-1"
             id="tab-1"
             tabIndex={0}
+            className="btn btn-sm btn-primary"
+            style={{ width: "100px" }}
           >
             Companies
           </button>
@@ -219,6 +221,8 @@ function Metrics_Summary({
             aria-controls="panel-2"
             id="tab-2"
             tabIndex={-1}
+            className="btn btn-sm btn-secondary"
+            style={{ width: "100px" }}
           >
             Reviews
           </button>
