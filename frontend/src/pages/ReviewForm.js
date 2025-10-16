@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import "/Users/josiahmendez/Projects/RMI/frontend/src/css/ReviewForm.css"; // We'll add basic styling below
+import "../css/ReviewForm.css"; // We'll add basic styling below
 
 const ReviewForm = () => {
   const [form, setForm] = useState({
