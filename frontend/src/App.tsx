@@ -1,5 +1,5 @@
-import Heading from "./components/heading.tsx";
-import Metrics_Summary from "./components/metrics_summary.tsx";
+import Heading from "./components/heading";
+import Metrics_Summary from "./components/metrics_summary";
 
 function App() {
   return (
