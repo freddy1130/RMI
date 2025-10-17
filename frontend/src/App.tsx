@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Heading from "./components/heading.tsx";
-import Metrics_Summary from "./components/metrics_summary.tsx";
+import Heading from "./components/heading";
+import Metrics_Summary from "./components/metrics_summary";
 import ReviewPage from "./pages/ReviewForm.js";
 import LoginPage from "./pages/Login.js";
 import SignUpPage from "./pages/SignUp.js";
