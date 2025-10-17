@@ -34,34 +34,34 @@ const ReviewForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    try {
-      const res = await axios.post("http://localhost:5000/api/reviews", form);
-      alert("Review submitted!");
-      setForm({
-        companyName: "",
-        position: "",
-        interviewType: "",
-        interviewDate: "",
-        duration: "",
-        overallRating: 3,
-        interviewExperience: 3,
-        communication: 3,
-        processRating: 3,
-        difficulty: 3,
-        outcome: "",
-        reviewText: "",
-        pros: "",
-        cons: "",
-        advice: "",
-        salaryDiscussed: false,
-        anonymous: false,
-        name: "",
-      });
-    } catch (err) {
-      console.error(err);
-      alert("Error submitting review");
-    }
-  };
+  try {
+    const res = await axios.post("http://localhost:5000/api/reviews", form);
+    alert("Review submitted!");
+    setForm({
+      companyName: "",
+      position: "",
+      interviewType: "",
+      interviewDate: "",
+      duration: "",
+      overallRating: 3,
+      interviewExperience: 3,
+      communication: 3,
+      processRating: 3,
+      difficulty: 3,
+      outcome: "",
+      reviewText: "",
+      pros: "",
+      cons: "",
+      advice: "",
+      salaryDiscussed: false,
+      anonymous: false,
+      name: "",
+    });
+  } catch (err) {
+    console.error(err);
+    alert(err.response?.data?.message || "Error submitting review");
+  }
+};
 
   return (
     <div className="review-form-container">
