@@ -4,6 +4,7 @@ import Metrics_Summary from "./components/metrics_summary";
 import ReviewPage from "./pages/ReviewForm.js";
 import LoginPage from "./pages/Login.js";
 import SignUpPage from "./pages/SignUp.js";
+import CompanyForm from "./pages/CompanyForm";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Link to="/write-review" className="btn btn-dark text-nowrap">
               + Write Review
             </Link>
+            <Link to="/add-company" className="btn btn-dark text-nowrap">+ Add Company</Link>
             <Link to="/login" className="btn btn-dark text-nowrap">
               Login
             </Link>
@@ -48,6 +50,7 @@ function App() {
         <Route path="/write-review" element={<ReviewPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignUpPage />} />
+        <Route path="/add-company" element={<CompanyForm />} />
       </Routes>
     </Router>
   );
