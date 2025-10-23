@@ -365,7 +365,7 @@ function Metrics_Summary({
                     </div>
                   </div>
 
-                  <div className="card-content px-4 pt-0 [&:last-child]:pb-6 mb-3">
+                  <div className="card-content px-4 pt-0 [&:last-child]:pb-6 mb-5">
                     <div className="d-flex align-items-center gap-4 small text-muted">
                       <div className="d-flex align-items-center gap-1">
                         <img
