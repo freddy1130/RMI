@@ -15,7 +15,7 @@ function App() {
           {/* Clickable title */}
           <div>
             <Link to="/" className="text-decoration-none text-dark">
-              <h1 className="mb-1">Rate My Interview</h1>
+              <h1 className="mb-1">Rate My Interviewer</h1>
             </Link>
             <p className="mb-0">Real interview experiences from real candidates</p>
           </div>
